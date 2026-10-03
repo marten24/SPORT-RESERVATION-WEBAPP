@@ -1,0 +1,44 @@
+:root {
+    --brand: #8a2be2;
+}
+
+#root {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.navbar-brand-custom {
+    background-color: var(--brand) !important;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+    border-color: var(--brand);
+    color: #fff;
+}
+
+.btn-brand:hover,
+.btn-brand:focus {
+    background-color: #7422c9;
+    border-color: #7422c9;
+    color: #fff;
+}
+
+.badge-brand {
+    background-color: var(--brand) !important;
+}
+
+.card-custom {
+    border: 1px solid var(--brand);
+}
+
+.card-custom .card-header {
+    background-color: var(--brand);
+    color: #fff;
+}

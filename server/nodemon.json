@@ -1,0 +1,11 @@
+{
+    "watch": ["*.js", "*.mjs", "*.json", "routes/", "middleware/"],
+    "ext": "js,mjs,json",
+    "ignore": [
+        "sport.sqlite",
+        "sport.sqlite-journal",
+        "sport.sqlite-wal",
+        "sport.sqlite-shm",
+        "node_modules/*"
+    ]
+}
